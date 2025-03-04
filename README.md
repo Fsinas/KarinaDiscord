@@ -120,6 +120,19 @@ BOT_STATUS=online
 ACTIVITY_TYPE=PLAYING
 ACTIVITY_NAME=with commands
 ```
+
+## 🚫 Files to Exclude
+
+When uploading to GitHub, make sure to exclude:
+- `node_modules/` directory
+- `.env` file (contains sensitive data)
+- `temp/` directory
+- Any log files (*.log)
+- `package-lock.json`
+- IDE-specific files (.vscode/, .idea/)
+- `replit.nix` and `.replit` files
+- Any other Replit-specific configuration files
+
 ## 📦 Project Structure
 ```
 karina-discord-bot/
@@ -135,6 +148,26 @@ karina-discord-bot/
 ├── docs/              # Documentation (optional)
 └── [config files]     # Various configuration files
 ```
+
+## 🔄 Setup Instructions
+
+1. Clone the repository or extract the zip file
+2. Create and configure your `.env` file:
+   ```bash
+   cp .env.example .env
+   # Edit .env with your Discord bot token and settings
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the bot:
+   ```bash
+   node src/index.js
+   ```
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
