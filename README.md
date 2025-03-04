@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-16.x-green.svg)](https://nodejs.org)
 
-<img src="generated-icon.png" align="right" width="200" height="200">
+[Invite Karina](https://discord.com/oauth2/authorize) | [Join Support Server](https://discord.gg/XgNvy48UN5) | [View Documentation](https://github.com/fsinas/karina-discord-bot/wiki)
 
 Karina is a feature-rich Discord bot designed to make server management effortless and engaging. Built with modern Discord.js, it combines powerful moderation tools with fun community features, helping you create a safe and active server environment.
 
