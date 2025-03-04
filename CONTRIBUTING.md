@@ -1,5 +1,5 @@
 # Contributing to Karina Discord Bot
-
+made by fsin, made by love.
 We love your input! We want to make contributing to Karina as easy and transparent as possible, whether it's:
 
 - Reporting a bug
